@@ -8,6 +8,8 @@ https://www.figma.com/file/ePc2c5hPt6NyLKbJJCcAzg/Proffy-Mobile-2.0?node-id=188%
 
 ## Índices
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1959774ced0848bbba0a8e81cdd686e4)](https://app.codacy.com/gh/joasimonson/proffy?utm_source=github.com&utm_medium=referral&utm_content=joasimonson/proffy&utm_campaign=Badge_Grade_Settings)
+
 1. [ Funcionalidades ](#funcionalidades)\
 1.1 [Aplicação Web](#aplicação-web)\
 1.2 [Aplicação mobile](#aplicação-mobile)
