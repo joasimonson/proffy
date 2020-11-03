@@ -1,8 +1,8 @@
-![image](https://ik.imagekit.io/bot95am5zi/proffy_FPyDbOrWT.png "logo")
+Web
+https://www.figma.com/file/0rzTNZcRGpVVVWZGy2iwks/Proffy-Web-2.0?node-id=160%3A2761
 
-Proffy é uma aplicação desenvolvida na Next Level Week 2 da Rocketseat onde alunos e professores poderão se conectar para ter aulas online, foram desenvolvidas a aplicação web e a aplicação mobile.
-
-A Rocketseat montou esse projeto tendo em vista o dia nacional do profissional da educação (6 de agosto).
+Mobile
+https://www.figma.com/file/ePc2c5hPt6NyLKbJJCcAzg/Proffy-Mobile-2.0?node-id=188%3A581
 
 - - -
 
@@ -16,7 +16,6 @@ A Rocketseat montou esse projeto tendo em vista o dia nacional do profissional d
 3.1 [ Front-end web](#front-end-web)\
 3.2 [ Back-end ](#back-end)\
 3.3 [ Mobile ](#mobile)
-4. [ Como usar ](#como-usar)
 
 - - -
 
@@ -269,25 +268,3 @@ Existem vários tipos de navegação dentro do react native, as três mais comun
 - Drawer: geralmente é um menu lateral.
 
 - - -
-
-<a name="como-usar"></a>
-
-## Como usar
-
-> Clone o repositório
-```shell
-$ git clone https://github.com/TakaGui/proffy.git
-```
-> Vá até os repositórios server, web e mobile
-```shell
-$ cd proffy
-$ cd web
-```
-> Instale as dependências em cada repositório
-```shell
-$ npm install
-```
-ou
-```shell
-$ yarn
-```
