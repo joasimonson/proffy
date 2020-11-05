@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "3a8138e7-dac9-4493-9dd7-1abb35565b82",
+		"name": "Proffy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Classes",
+			"item": [
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Jô Araújo\",\r\n    \"avatar\": \"https://avatars0.githubusercontent.com/u/3268186?s=460&u=aa20b524e89fcafdabf7e192f64fc5b0d91650e6&v=4\",\r\n    \"whatsapp\": \"5511988448132\",\r\n    \"bio\": \"estressado\",\r\n    \"subject\": \"Informática\",\r\n    \"cost\": 80,\r\n    \"schedule\": [\r\n        { \"week_day\": 1, \"from\": \"8:00\", \"to\": \"12:00\" },\r\n        { \"week_day\": 3, \"from\": \"10:00\", \"to\": \"18:00\" },\r\n        { \"week_day\": 4, \"from\": \"8:00\", \"to\": \"12:00\" }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3333/classes",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"classes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3333/classes?week_day=1&subject=Biologia&time=11:00",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"classes"
+							],
+							"query": [
+								{
+									"key": "week_day",
+									"value": "1"
+								},
+								{
+									"key": "subject",
+									"value": "Biologia"
+								},
+								{
+									"key": "time",
+									"value": "11:00"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Connections",
+			"item": [
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3333/connections",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"connections"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3333/connections",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"connections"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
