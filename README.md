@@ -4,6 +4,9 @@ https://www.figma.com/file/0rzTNZcRGpVVVWZGy2iwks/Proffy-Web-2.0?node-id=160%3A2
 Mobile
 https://www.figma.com/file/ePc2c5hPt6NyLKbJJCcAzg/Proffy-Mobile-2.0?node-id=188%3A581
 
+Versão 2.0
+https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970#a8d95e60733641e7886c60538db860a2
+
 - - -
 
 ## Índices
